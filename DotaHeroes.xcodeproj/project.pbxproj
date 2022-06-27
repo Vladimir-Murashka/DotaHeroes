@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		22630F2D286A514900500177 /* BitMaskCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22630F2C286A514900500177 /* BitMaskCategory.swift */; };
+		22630F2F286A516100500177 /* Plane.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22630F2E286A516100500177 /* Plane.swift */; };
+		22630F31286A517200500177 /* VirtualObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22630F30286A517200500177 /* VirtualObject.swift */; };
 		22AE9FE7286A3B8C00D4E99D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22AE9FE6286A3B8C00D4E99D /* AppDelegate.swift */; };
 		22AE9FE9286A3B8C00D4E99D /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 22AE9FE8286A3B8C00D4E99D /* art.scnassets */; };
 		22AE9FEB286A3B8C00D4E99D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22AE9FEA286A3B8C00D4E99D /* ViewController.swift */; };
@@ -16,6 +19,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		22630F2C286A514900500177 /* BitMaskCategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BitMaskCategory.swift; sourceTree = "<group>"; };
+		22630F2E286A516100500177 /* Plane.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Plane.swift; sourceTree = "<group>"; };
+		22630F30286A517200500177 /* VirtualObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VirtualObject.swift; sourceTree = "<group>"; };
 		22AE9FE3286A3B8C00D4E99D /* DotaHeroes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DotaHeroes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		22AE9FE6286A3B8C00D4E99D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		22AE9FE8286A3B8C00D4E99D /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
@@ -56,11 +62,14 @@
 			isa = PBXGroup;
 			children = (
 				22AE9FE6286A3B8C00D4E99D /* AppDelegate.swift */,
-				22AE9FE8286A3B8C00D4E99D /* art.scnassets */,
 				22AE9FEA286A3B8C00D4E99D /* ViewController.swift */,
+				22630F2C286A514900500177 /* BitMaskCategory.swift */,
+				22630F2E286A516100500177 /* Plane.swift */,
+				22630F30286A517200500177 /* VirtualObject.swift */,
 				22AE9FEC286A3B8C00D4E99D /* Main.storyboard */,
 				22AE9FEF286A3B9000D4E99D /* Assets.xcassets */,
 				22AE9FF1286A3B9000D4E99D /* LaunchScreen.storyboard */,
+				22AE9FE8286A3B8C00D4E99D /* art.scnassets */,
 			);
 			path = DotaHeroes;
 			sourceTree = "<group>";
@@ -137,7 +146,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				22630F31286A517200500177 /* VirtualObject.swift in Sources */,
 				22AE9FEB286A3B8C00D4E99D /* ViewController.swift in Sources */,
+				22630F2D286A514900500177 /* BitMaskCategory.swift in Sources */,
+				22630F2F286A516100500177 /* Plane.swift in Sources */,
 				22AE9FE7286A3B8C00D4E99D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -293,6 +305,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UIRequiredDeviceCapabilities = arkit;
 				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -323,6 +336,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UIRequiredDeviceCapabilities = arkit;
 				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
